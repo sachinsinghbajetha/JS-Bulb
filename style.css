@@ -24,14 +24,14 @@ button {
     border: none;
     background-color: black;
     cursor: pointer;
-    box-shadow: 0 0 1rem black;
+    box-shadow: 0 0 10px black;
     color: white;
-    transition: transform 0.3s;
+    transition: ease-out 0.4s;
 }
 
 button:hover {
-    background-color: blue;
-    box-shadow: 0 0 1rem blue;
+    background-color: crimson;
+    box-shadow: 0 0 10px crimson;
     transform: scale(1.1);
 }
 
